@@ -4,4 +4,4 @@ Grupo 1 - Capitulo final (Bad Ending)
 
 Integrantes:
 -Jorge Riffo
--Elvis A
+-Elvis Andrade
