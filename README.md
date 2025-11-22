@@ -6,3 +6,4 @@ Integrantes:
     -Jorge Riffo
     -Marjory Recabal
     -Elvis  
+    -Paula Bahamondes
