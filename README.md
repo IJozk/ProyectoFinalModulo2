@@ -7,3 +7,4 @@ Integrantes:
     -Marjory Recabal
     -Elvis  
     -Paula Bahamondes
+    -Daniel Mandiola
