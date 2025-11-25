@@ -58,3 +58,19 @@
 #cafeCarousel .carousel-indicators button.active {
     background-color: #d1c2b0;
 }
+
+/* PAULA */
+
+#carta{
+    overflow: hidden;
+}
+
+.comidita{
+    transition: 0.4s ease;
+ }
+
+ .comidita:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
