@@ -1,10 +1,14 @@
-// jorge
+// Boton enviar mensaje contacto
 
-// Marjory
+const boton = document.getElementById("boton-contacto")
 
-// Paula
+boton.addEventListener('click', function(event){
+    event.preventDefault();
 
-// Daniel
+    
+})
+
+
 
 const track = document.querySelector(".carousel-track");
 const slides = Array.from(track.children);
@@ -38,6 +42,3 @@ indicators.forEach((indicator, i) => {
         updateCarousel();
     });
 });
-
-
-// Elvis
