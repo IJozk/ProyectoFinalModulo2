@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hero</title>
-    <link rel="stylesheet" href="style.css">
+        <title>Cafeteria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">    
 </head>
+
+
 <body>
-    <!-- hero?? -->
     <header>
-        
+        <!-- JORGE -->
+        <div class="Container" id="jorge">
+
+        </div>
+
+        <!-- MARJORY -->
+        <div class="Container" id="marjory">
+
             <div class="row">
                 <div class="col">
                 <span>Ven a disfrutar</span>
@@ -17,7 +27,7 @@
             </div>
 
 
-                <div class="contenedor">
+                <div class="contenedor-hero">
                     <div class="row">
                         <div class="subcontenedor">
                                 <div class="cajita">
@@ -33,8 +43,144 @@
                     
                 </div>
 
-
+        </div>
 
     </header>
+    <main>
+        <!-- PAULA -->
+        <div class="container" id="carta">
+            <H2>Menú</H2>
+            <h3>Lo más pedido</h3>
+            <div class="row">
+
+                <div class="col-12 col-sm-12   col-md-4 p-5">
+                    <div class="comidita card" style="width: 18rem;">
+                        <img src="./assets/img/menu-cartas/capuchino.jpg" class="card-img-top" alt="imagenes capuchino">
+                        <div class="card-body">
+                            <h5 class="card-title">Capuchino</h5>
+                            <p class="card-text">Capuchino con leche de avena, almendras o soya.<br><b>$3.500</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12   col-md-4 p-5">
+                    <div class="comidita card" style="width: 18rem;">
+                        <img src="./assets/img/menu-cartas/matcha.jpg" class="card-img-top" alt="Bebida matcha">
+                        <div class="card-body">
+                            <h5 class="card-title">Matcha Late</h5>
+                            <p class="card-text">Matcha Late con leche de avena, almendras o soya.<br><b>$3.500</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12   col-md-4 p-5">
+                    <div class="comidita card" style="width: 18rem;">
+                        <img src="./assets/img/menu-cartas/torta-zanahoria.jpg" class="card-img-top" alt="Torta de zanahoria">
+                        <div class="card-body">
+                            <h5 class="card-title">Torta de zanahoria</h5>
+                            <p class="card-text">Torta de zanahoria y nueces, casera.<br><b>$4.000 cada rebanada.</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12   col-md-4 p-5">
+                    <div class="comidita card" style="width: 18rem;">
+                        <img src="./assets/img/menu-cartas/torta-amor.webp" class="card-img-top" alt="torta amor">
+                        <div class="card-body">
+                            <h5 class="card-title">Torta amor</h5>
+                            <p class="card-text">Torta casera. Bizcocho de hojarasca, merengue, manjar, frambuesa y
+                                crema.<br><b>$5.000 cada rebanada.</b> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12   col-md-4 p-5">
+                    <div class="comidita card" style="width: 18rem;">
+                        <img src="./assets/img/menu-cartas/sandwich.jpg" class="card-img-top" alt="Sandwich de humus">
+                        <div class="card-body">
+                            <h5 class="card-title">Sandwich de humus y verduras</h5>
+                            <p class="card-text">Pan de masa madre con humus y verduras de temporada.<br><b>$4.500</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12   col-md-4 p-5">
+                    <div class="comidita card" style="width: 18rem;">
+                        <img src="./assets/img/menu-cartas/pan-ciabata.jpg" class="card-img-top"
+                            alt="Sandwich de verduras salteadas">
+                        <div class="card-body">
+                            <h5 class="card-title">Sandwich de verduras salteadas</h5>
+                            <p class="card-text">Pan ciabata con verduras de temporada salteadas y tomate
+                                asado.<br><b>$4.500</b></p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        
+
+        <!-- DANIEL -->
+
+        <div class="Container" id="daniel">
+            <div class="container my-5">
+                <div id="cafeCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicadores -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#cafeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#cafeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#cafeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+
+                    <!-- Slides del carrusel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-image-wrapper">
+                                <img src="https://via.placeholder.com/1200x500/8B5A2B/FFFFFF?text=Imagen+1" class="d-block w-100" alt="Cafetería 1">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image-wrapper">
+                                <img src="https://via.placeholder.com/1200x500/8B5A2B/FFFFFF?text=Imagen+2" class="d-block w-100" alt="Cafetería 2">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image-wrapper">
+                                <img src="https://via.placeholder.com/1200x500/8B5A2B/FFFFFF?text=Imagen+3" class="d-block w-100" alt="Cafetería 3">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Botones de navegación -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cafeCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#cafeCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        
+    </main>
+    <footer>
+        <!-- ELVIS -->
+        <div class="Container" id="elvis">
+
+        </div>
+
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="./assets/js/scripts.js"></script>
+
 </body>
 </html>
