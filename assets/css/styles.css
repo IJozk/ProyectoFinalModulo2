@@ -82,3 +82,10 @@
     background-repeat: no-repeat;
     background: cover;
 }
+
+/* FOOTER */
+footer{
+    text-align: center;
+    background-color: #8B5A2B;
+    color: white;
+}
